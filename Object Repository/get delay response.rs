@@ -27,6 +27,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.LOGIN_JWT_TC</defaultValue>
+      <description></description>
+      <id>dd2fb2df-886b-4656-9966-154884b03c29</id>
+      <masked>false</masked>
+      <name>apikey</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
